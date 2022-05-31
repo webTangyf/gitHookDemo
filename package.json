@@ -1,0 +1,50 @@
+{
+  "name": "githookdemo",
+  "version": "1.0.0",
+  "description": "用于尝试相关工具流搭建过程",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "prepare": "husky install",
+    "commit": "git-cz"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/webTangyf/gitHookDemo.git"
+  },
+  "keywords": [
+    "husky",
+    "eslint",
+    "prettier"
+  ],
+  "author": "tangyufeng",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/webTangyf/gitHookDemo/issues"
+  },
+  "homepage": "https://github.com/webTangyf/gitHookDemo#readme",
+  "devDependencies": {
+    "@commitlint/config-conventional": "^17.0.0",
+    "commitizen": "^4.2.4",
+    "commitlint": "^17.0.1",
+    "commitlint-config-cz": "^0.13.3",
+    "cz-conventional-changelog": "^3.3.0",
+    "cz-customizable": "^6.3.0",
+    "eslint": "^8.16.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard": "^17.0.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-n": "^15.2.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-promise": "^6.0.0",
+    "husky": "^8.0.1",
+    "jest": "^28.1.0",
+    "lint-staged": "^12.4.3",
+    "prettier": "^2.6.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
